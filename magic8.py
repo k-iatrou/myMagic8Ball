@@ -1,8 +1,8 @@
 import random
 
 # defined variables
-name = "Jeff"
-question = "Is tomorrow a new day?"
+name = input("Write your name: ")
+question = input("Ask a question that you can answer with yes or no: ")
 answer = ""
 
 # getting random number
@@ -29,4 +29,7 @@ elif random_number == 9:
     answer = "Very doubtful"
 else:
     answer = "Error"
+
+print(name + " asks: " + question)
+print("Magic 8-Ball's answer: " + answer)
 
